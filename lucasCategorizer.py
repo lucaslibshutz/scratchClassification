@@ -14,8 +14,6 @@ from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
 from huggingface_hub import HfFolder
 
-HfFolder.save_token('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')
-
 
 #! Check if NLTK stuff is downloaded
 nltk.download('punkt')
